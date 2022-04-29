@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "node-sass": "node-sass",
-    "sass": "node-sass -w styles/main.scss ./style.css"
+    "sass": "node-sass -wr styles/main.scss ./style.css"
   },
   "name": "tomorrow-house",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "sass-lint": "^1.13.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mongsukim/tomorrow-house.git"
