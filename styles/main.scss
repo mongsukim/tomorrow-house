@@ -4,6 +4,7 @@
 @import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
-@import './mixins/_text-style';
-@import './mixins/_responsive';
+@import './mixins/text-style';
+@import './mixins/responsive';
+@import './mixins/positions';
 @import './layouts/grids';
