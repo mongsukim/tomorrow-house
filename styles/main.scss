@@ -1,13 +1,6 @@
 @import './constants/colors';
-@import './base/_fonts.scss';
+@import './constants/typography';
+@import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
-$hong: 1;
-
-p {
-  color: #000;
-  line-height: $hong;
-}
-* {
-  font-family: 'Noto Sans KR', sans-serif;
-}
+@import './layouts/grids';
